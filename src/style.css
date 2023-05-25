@@ -15,10 +15,11 @@
     align-items: center;
     justify-content: center;
 }
-@media(max-width:1024px){
-    .main-heading{
+
+@media(max-width:1024px) {
+    .main-heading {
         background-image: url(/images/bg-header-mobile.png);
-       text-align: center;
+        text-align: center;
     }
 }
 
@@ -26,6 +27,7 @@
     width: 100%;
 
 }
+
 .main-heading .container .box .tittle {
     display: flex;
     flex-direction: column;
@@ -48,19 +50,22 @@
 .main-heading .container .box .tittle .text h3 {
     font-size: 35px;
 }
-@media(max-width: 1024px){
-    .main-heading .container .box .tittle .text h3{
+
+@media(max-width: 1024px) {
+    .main-heading .container .box .tittle .text h3 {
         width: 70%;
     }
 }
+
 .main-heading .container .box .tittle .text p {
     color: hsl(201, 11%, 66%);
     line-height: 1.6;
     font-size: 16px;
     text-align: center;
 }
-@media(max-width: 1024px){
-    .main-heading .container .box .tittle .text p{
+
+@media(max-width: 1024px) {
+    .main-heading .container .box .tittle .text p {
         width: 57%;
     }
 }
@@ -72,8 +77,9 @@
     width: 50%;
     padding-top: 20px;
 }
-@media(max-width: 1024px){
-    .main-heading .container .box .tittle .download{
+
+@media(max-width: 1024px) {
+    .main-heading .container .box .tittle .download {
         flex-direction: column;
     }
 }
@@ -87,8 +93,9 @@
     height: 40px;
     color: white;
 }
-@media(max-width: 1024px){
-    .main-heading .container .box .tittle .download button:first-of-type{
+
+@media(max-width: 1024px) {
+    .main-heading .container .box .tittle .download button:first-of-type {
         width: 100%;
     }
 }
@@ -102,8 +109,9 @@
     height: 40px;
     color: white;
 }
-@media(max-width: 1024px){
-    .main-heading .container .box .tittle .download button:last-of-type{
+
+@media(max-width: 1024px) {
+    .main-heading .container .box .tittle .download button:last-of-type {
         width: 100%;
     }
 }
@@ -127,8 +135,9 @@
 .box .track .text h3 {
     font-size: 30px;
 }
-@media(max-width: 1024px){
-    .box .track .text h3{
+
+@media(max-width: 1024px) {
+    .box .track .text h3 {
         width: 70%;
     }
 }
@@ -140,8 +149,9 @@
     text-align: center;
     width: 48%;
 }
-@media(max-width: 1024px){
-    .box .track .text p{
+
+@media(max-width: 1024px) {
+    .box .track .text p {
         width: 57%;
     }
 }
@@ -154,52 +164,60 @@
     gap: 50px;
     padding-top: 50px;
 }
-@media(max-width: 1024px){
-     .box .track .mac{
-      flex-direction: column;
+
+@media(max-width: 1024px) {
+    .box .track .mac {
+        flex-direction: column;
     }
 }
-.box .track .mac .left{
+
+.box .track .mac .left {
     width: 50%;
 }
-@media(max-width: 1024px){
-    .box .track .mac .left{
-    width: 100%;
-   }
+
+@media(max-width: 1024px) {
+    .box .track .mac .left {
+        width: 100%;
+    }
 }
-.box .track .mac .left img{
+
+.box .track .mac .left img {
     width: 100%;
 }
-.box .track .mac .right{
+
+.box .track .mac .right {
     display: flex;
     flex-direction: column;
     gap: 40px;
 }
 
-.box .track .mac .right h3{
+.box .track .mac .right h3 {
     font-size: 15px;
 }
-.box .track .mac .right p{
+
+.box .track .mac .right p {
     color: hsl(201, 11%, 66%);
     font-size: 12px;
     line-height: 1.6;
     width: 55%;
     padding-top: 12px;
 }
-@media(max-width: 1024px){
+
+@media(max-width: 1024px) {
     .box .track .mac .right p {
         margin: 0 auto;
         width: 50%;
-   }
+    }
 }
 
 /* ------------------------- */
-.box .access{
+.box .access {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 80px;
 }
+
 .box .access .text {
     display: flex;
     flex-direction: column;
@@ -207,11 +225,13 @@
     gap: 10px;
     margin-top: 80px;
 }
+
 .box .access .text h3 {
     font-size: 30px;
 }
-@media(max-width: 1024px){
-    .box .access .text h3{
+
+@media(max-width: 1024px) {
+    .box .access .text h3 {
         width: 72%;
     }
 }
@@ -223,27 +243,31 @@
     text-align: center;
     width: 72%;
 }
-@media(max-width: 1024px){
-    .box .access .text p{
+
+@media(max-width: 1024px) {
+    .box .access .text p {
         width: 56%;
     }
 }
-@media(max-width: 1024px){
-    .box .access .image img{
-        width: 100%;
+
+@media(max-width: 1024px) {
+    .box .access .image img {
+        width: 100% !important ; 
     }
 }
 
 /* ------------------------------ */
-.box .charge{
+.box .charge {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
 }
-@media(max-width: 1024px){
+
+@media(max-width: 1024px) {
     .box .charge {
         align-items: center;
-   }
+    }
 }
+
 .box .charge .text {
     display: flex;
     flex-direction: column;
@@ -255,79 +279,92 @@
 .box .charge .text h3 {
     font-size: 25px;
 }
-@media(max-width: 1024px){
+
+@media(max-width: 1024px) {
     .box .charge .text h3 {
         width: 72%;
-   }
+    }
 }
+
 .box .charge .text p {
     color: hsl(201, 11%, 66%);
     font-size: 14px;
 }
-@media(max-width: 1024px){
+
+@media(max-width: 1024px) {
     .box .charge .text p {
         width: 72%;
-   }
+    }
 }
-.box .charge .group{
+
+.box .charge .group {
     display: flex;
     padding-top: 40px;
     align-items: center;
     justify-content: center;
     width: 87%;
 }
-@media(max-width: 1024px){
+
+@media(max-width: 1024px) {
     .box .charge .group {
-       flex-direction: column;
-       gap: 40px;
-   }
+        flex-direction: column;
+        gap: 40px;
+    }
 }
-.box .charge .group .list{
+
+.box .charge .group .list {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 20px;
 }
-.box .charge .group .list h4{
+
+.box .charge .group .list h4 {
     font-size: 20px;
 }
-.box .charge .group .list p{
+
+.box .charge .group .list p {
     color: hsl(201, 11%, 66%);
     line-height: 1.6;
     font-size: 12px;
     text-align: center;
     width: 80%;
 }
-@media(max-width: 1024px){
+
+@media(max-width: 1024px) {
     .box .charge .group .list p {
         width: 51%;
-   }
+    }
 }
+
 /* --------------------------------- */
-.box .logo{
+.box .logo {
     display: flex;
     padding-top: 70px;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
-@media(max-width: 1024px){
+
+@media(max-width: 1024px) {
     .box .logo {
-        flex-direction: column;
         gap: 80px;
         align-items: center;
-   }
+    }
 }
-.box .logo img{
+
+.box .logo img {
     height: 30px;
 }
-@media(max-width: 1024px){
+
+@media(max-width: 1024px) {
     .box .logo img {
-        width: 51%;
         height: 50px;
-   }
+        object-fit: contain;
+    }
 }
 
 /* -------------------------------------- */
-.box .clipboard{
+.box .clipboard {
     padding-top: 100px;
     display: flex;
     flex-direction: column;
@@ -345,22 +382,24 @@
 .box .clipboard .text h3 {
     font-size: 35px;
 }
-@media(max-width: 1024px){
+
+@media(max-width: 1024px) {
     .box .clipboard .text h3 {
         width: 75%;
-   }
+    }
 }
 
- .box .clipboard .text p {
+.box .clipboard .text p {
     color: hsl(201, 11%, 66%);
     line-height: 1.6;
     text-align: center;
     width: 68%;
 }
-@media(max-width: 1024px){
+
+@media(max-width: 1024px) {
     .box .clipboard .text p {
         width: 56%;
-   }
+    }
 }
 
 .box .clipboard .download {
@@ -370,14 +409,15 @@
     width: 50%;
     padding-top: 20px;
 }
-@media(max-width: 1024px){
+
+@media(max-width: 1024px) {
     .box .clipboard .download {
         flex-direction: column;
         align-items: center;
-   }
+    }
 }
 
- .box .clipboard .download button:first-of-type {
+.box .clipboard .download button:first-of-type {
     background-color: hsl(171, 66%, 44%);
     cursor: pointer;
     border-radius: 20px;
@@ -386,13 +426,14 @@
     height: 40px;
     color: white;
 }
-@media(max-width: 1024px){
-     .box .clipboard .download button:first-of-type{
+
+@media(max-width: 1024px) {
+    .box .clipboard .download button:first-of-type {
         width: 100%;
     }
 }
 
- .box .clipboard .download button:last-of-type {
+.box .clipboard .download button:last-of-type {
     background-color: hsl(233, 100%, 69%);
     cursor: pointer;
     border-radius: 20px;
@@ -401,66 +442,78 @@
     height: 40px;
     color: white;
 }
-@media(max-width: 1024px){
-    .box .clipboard .download button:last-of-type{
-       width: 100%;
-   }
+
+@media(max-width: 1024px) {
+    .box .clipboard .download button:last-of-type {
+        width: 100%;
+    }
 }
+
 /* ------------------------------------------------------ */
-.box .fotter{
+.box .fotter {
     margin-top: 50px;
     display: flex;
     background-color: #f8f3f3a6;
     justify-content: space-around;
     align-items: center;
 }
-@media(max-width: 1024px){
-    .box .fotter{
-       flex-direction: column;
-   }
+
+@media(max-width: 1024px) {
+    .box .fotter {
+        flex-direction: column;
+    }
 }
-.box .fotter .copy{
+
+.box .fotter .copy {
     color: hsl(171, 66%, 44%);
     font-size: 80px;
 }
-.box .fotter .middel{
+
+.box .fotter .middel {
     display: flex;
     gap: 70px;
 }
-@media(max-width: 1024px){
-    .box .fotter .middel{
-       flex-direction: column;
-     gap: 10px;
-     margin: 30px;
-   }
+
+@media(max-width: 1024px) {
+    .box .fotter .middel {
+        flex-direction: column;
+        gap: 10px;
+        margin: 30px;
+    }
 }
-.box .fotter .middel h5{
+
+.box .fotter .middel h5 {
     color: hsl(201, 11%, 66%);
     cursor: pointer;
 }
-.box .fotter .middel h5:hover{
-    color: hsl(171, 66%, 44%); 
+
+.box .fotter .middel h5:hover {
+    color: hsl(171, 66%, 44%);
 }
-.box .fotter .middel .info{
+
+.box .fotter .middel .info {
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
-.box .fotter .social{
+
+.box .fotter .social {
     display: flex;
     gap: 20px;
     align-items: center;
 }
-@media(max-width: 1024px){
-    .box .fotter .social{
-     gap: 30px;
-     margin-bottom: 30px; 
-   }
+
+@media(max-width: 1024px) {
+    .box .fotter .social {
+        gap: 30px;
+        margin-bottom: 30px;
+    }
 }
-.box .fotter .social img{
+
+.box .fotter .social svg {
     cursor: pointer;
-    color: black;
 }
-.box .fotter .social img:hover{
-    color: hsl(171, 66%, 44%); 
+
+.box .fotter .social svg:hover path {
+    fill: hsl(171, 66%, 44%);
 }
